@@ -6,7 +6,8 @@ It solves the `avrdude: stk500_recv(): programmer is not responding` & `avrdude:
 
 The script works with the port `/dev/ttyUSB0`, if you need to use it for any other port, just replace it.
 
-```# Change USB* with any device you want to gain permission
+```
+# Change USB* with any device you want to gain permission
 echo "Listing all the /dev/ttyUSB* ports"
 echo "(Make sure to edit the .sh if you want to list other ports, like /dev/ttyACM*)"
 echo ""
@@ -26,4 +27,5 @@ sudo chmod a+rw /dev/ttyUSB0
 echo "Port has now a+rw permission"
 echo ""
 
-echo "You need to logout and login in order for changes to take effect"```
+echo "You need to logout and login in order for changes to take effect"
+```
